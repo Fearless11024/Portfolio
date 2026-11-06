@@ -227,8 +227,8 @@ h2{font-family:var(--head);font-size:clamp(28px,4.5vw,42px);line-height:1.15;let
 .side b{color:var(--text);}
 
 /* loadout */
-.loadout{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:20px;}
-.tool{padding:40px 24px 34px;text-align:center;}
+.loadout{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:20px;}
+.tool{padding:36px 16px 30px;text-align:center;}
 .tool:hover{transform:translateY(-8px);}
 .tool i{font-size:84px;display:block;margin-bottom:22px;filter:drop-shadow(0 8px 24px rgba(124,92,255,.35));transition:transform .5s var(--ease);}
 .tool:hover i{transform:scale(1.12) rotate(-5deg);}
@@ -413,6 +413,7 @@ footer{text-align:center;padding:30px 20px 50px;color:var(--muted);font-size:14p
     <div class="m-item"><i class="devicon-java-plain colored"></i>Java</div>
     <div class="m-item"><i class="devicon-github-original logo-white"></i>GitHub</div>
     <div class="m-item"><i class="devicon-netlify-plain colored"></i>Netlify</div>
+    <div class="m-item"><i class="devicon-vercel-original logo-white"></i>Vercel</div>
     <div class="m-item"><i class="devicon-supabase-plain colored"></i>Supabase</div>
     <div class="m-item"><i class="devicon-vscode-plain colored"></i>VS Code</div>
   </div>
@@ -428,11 +429,11 @@ footer{text-align:center;padding:30px 20px 50px;color:var(--muted);font-size:14p
   <div class="about-grid">
     <div class="about-text reveal">
       <p>I'm a <b>web designer and developer</b> based in Lagos. I build clean, responsive websites with HTML, CSS and JavaScript.</p>
-      <p>I write code in <b>VS Code</b>, manage it on <b>GitHub</b>, deploy my sites with <b>Netlify</b>, and use <b>Supabase</b> for backend. I'm always levelling up, with Python, C++ and Java in training.</p>
+     <p>I write code in <b>VS Code</b>, manage it on <b>GitHub</b>, deploy my sites with <b>Netlify</b> and <b>Vercel</b>, and use <b>Supabase</b> for backend. I'm always levelling up, with Python, C++ and Java in training.</p>
     </div>
     <div class="stats" data-stagger>
       <div class="card stat"><div class="n" data-count="6">0</div><div class="l">Languages</div></div>
-      <div class="card stat"><div class="n" data-count="4">0</div><div class="l">Dev tools</div></div>
+      <div class="card stat"><div class="n" data-count="5">0</div><div class="l">Dev tools</div></div>
       <div class="card stat"><div class="n" data-count="3">0</div><div class="l">Certificates</div></div>
     </div>
   </div>
@@ -522,6 +523,12 @@ footer{text-align:center;padding:30px 20px 50px;color:var(--muted);font-size:14p
       <h3>Supabase</h3>
       <p>My backend and database for apps and websites.</p>
     </div>
+    <div class="card tool">
+  <i class="devicon-vercel-original logo-white"></i>
+  <span class="role-tag">Hosting</span>
+  <h3>Vercel</h3>
+  <p>Where my web apps and projects get deployed and hosted.</p>
+</div>
   </div>
 </section>
 
@@ -534,6 +541,7 @@ footer{text-align:center;padding:30px 20px 50px;color:var(--muted);font-size:14p
   </div>
 
   <div class="projects" data-stagger>
+    
 
     <!-- PROJECT CARD (copy this whole block for each new project) -->
     <div class="card project">
@@ -542,12 +550,12 @@ footer{text-align:center;padding:30px 20px 50px;color:var(--muted);font-size:14p
         <div class="pv-screen">
           <!-- Screenshot option: delete the pv-empty line below and use: <img src="images/project1.png" alt="Project 1 preview"> -->
           <!-- Live preview option: use: <iframe src="https://yourproject.netlify.app" loading="lazy" title="Project 1 live preview"></iframe> -->
-          <iframe src="https://ctc-junior-chapel.netlify.app" loading="lazy" title="Project 1 live preview"></iframe>
+          <iframe src="https://ctc-junior-chapel.netlify.app" loading="lazy" title="Ctc Junior Chapel live preview"></iframe>
           <a class="pv-link" href="https://ctc-junior-chapel.netlify.app" target="_blank" rel="noopener">View project ↗</a>
         </div>
       </div>
       <div class="p-body">
-        <h3>Project name</h3>
+        <h3>Ctc Junior Chapel Website</h3>
         <p>One or two lines about what it is and what you did on it.</p>
         <div class="p-tags">
           <span><i class="devicon-html5-plain colored"></i>HTML</span>
@@ -560,7 +568,54 @@ footer{text-align:center;padding:30px 20px 50px;color:var(--muted);font-size:14p
         </div>
       </div>
     </div>
+ <div class="card project">
+      <div class="pv">
+        <div class="pv-bar"><i></i><i></i><i></i><span>https://cyberlodgehotel.netlify.app</span></div>
+        <div class="pv-screen">
+          <!-- Screenshot option: delete the pv-empty line below and use: <img src="images/project1.png" alt="Project 1 preview"> -->
+          <!-- Live preview option: use: <iframe src="https://yourproject.netlify.app" loading="lazy" title="Project 1 live preview"></iframe> -->
+          <iframe src="https://cyberlodgehotel.netlify.app" loading="lazy" title="Cyberlodge Hotel live preview"></iframe>
+          <a class="pv-link" href="https://cyberlodgehotel.netlify.app" target="_blank" rel="noopener">View project ↗</a>
+        </div>
+      </div>
+      <div class="p-body">
+        <h3>Cyberlodge Hotel</h3>
+        <p>One or two lines about what it is and what you did on it.</p>
+        <div class="p-tags">
+          <span><i class="devicon-html5-plain colored"></i>HTML</span>
+          <span><i class="devicon-css3-plain colored"></i>CSS</span>
+          <span><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+        </div>
+        <div class="p-links">
+          <a class="live" href="https://cyberlodgehotel.netlify.app" target="_blank" rel="noopener">Live demo</a>
+          <a href="https://github.com/Fearless11024/your-repo" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </div>
 
+<div class="card project">
+  <div class="pv">
+    <div class="pv-bar"><i></i><i></i><i></i><span>https://coin-pro-ivory.vercel.app</span></div>
+    <div class="pv-screen">
+      <iframe src="https://coin-pro-ivory.vercel.app" loading="lazy" title="Coin Pro live preview"></iframe>
+      <a class="pv-link" href="https://coin-pro-ivory.vercel.app" target="_blank" rel="noopener">View project ↗</a>
+    </div>
+  </div>
+  <div class="p-body">
+    <h3>CoinPro</h3>
+    <p>A modern cryptocurrency trading platform, designed for a seamless trading experience.CoinPro is a practice platform that uses live market prices with virtual money.No real funds can be deposited, withdrawn or traded here.</p>
+    <div class="p-tags">
+      <span><i class="devicon-html5-plain colored"></i>HTML</span>
+      <span><i class="devicon-css3-plain colored"></i>CSS</span>
+      <span><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+      <span><i class="devicon-vercel-original logo-white"></i>Vercel</span>
+    </div>
+    <div class="p-links">
+      <a class="live" href="https://coin-pro-ivory.vercel.app" target="_blank" rel="noopener">Live demo</a>
+      <a href="https://github.com/YOUR_GITHUB_USERNAME/your-repo" target="_blank" rel="noopener">Code</a>
+    </div>
+  </div>
+</div>
     <!-- EMPTY SLOT (delete once you've filled your spots) -->
     <div class="slot"><div><b>+</b>Next project loading…</div></div>
 
